@@ -4,6 +4,7 @@ public class HelloWorld {
     }
 }
 I have addded extra line 
+ Updated upstream
     class Dog {
     String breed;
     int age;
@@ -21,4 +22,7 @@ public class Main {
         myDog.bark();
     }
 }
+
+developer 2 done the commit in same file
+
 
