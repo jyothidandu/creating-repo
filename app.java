@@ -4,4 +4,21 @@ public class HelloWorld {
     }
 }
 I have addded extra line 
+    class Dog {
+    String breed;
+    int age;
+
+    void bark() {
+        System.out.println("Woof Woof!");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Dog myDog = new Dog(); // Creating an object
+        myDog.breed = "Labrador";
+        myDog.age = 5;
+        myDog.bark();
+    }
+}
 
